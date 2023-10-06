@@ -1,5 +1,5 @@
-export const Part = (props) => {
+export const Part = ({partno,partexcersizes}) => {
     return(
-        <p>{props.partno} {props.partexcersizes}</p>
+        <p>{partno} {partexcersizes}</p>
     )
 }
